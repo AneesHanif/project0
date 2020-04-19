@@ -1,41 +1,118 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>My Webpage</title>
-        <link rel="stylesheet" href="style.css">
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  <head>
+    <title>My Webpage</title>
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  </head>
+  <body style="background-color: #ececec;">
+    <nav class="navbar navbar-expend-md bg-dark navbar-dark">
+      <a class="navbar-brand" href="index.html">Home</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#collapesable_Navebar"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-    </head>
-    <body>
-        <nav class="navbar navbar-expend-md bg-dark navbar-dark" >
-           <a class="navbar-brand" href="index.html">Home</a>
-           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target = "#collapesable_Navebar">
-              <span class="navbar-toggler-icon"></span>
-           </button>
+      <div class="collapse navbar-collapse" id="collapesable_Navebar">
+        <ul class="navbar-nav ju">
+          <li class="nav-item">
+            <a class="nav-link" href="page1.html"> Laptop 1</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="page2.html"> Laptop 2</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="page3.html"> Laptop 3</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
 
-            <div class="collapse navbar-collapse" id="collapesable_Navebar">
-               <ul class="navbar-nav ju" >
-                   <li class="nav-item"> <a class="nav-link" href="page1.html"> Page1</a></li>
-                   <li class="nav-item"> <a class="nav-link" href="page2.html"> Page1</a></li>
-                   <li class="nav-item"> <a class="nav-link" href="page3.html"> Page1</a></li>
-                   
-               </ul> 
-            </div>
-         </nav>
-    <br>
-    <div class="container">
-        <h1>Pen</h1>
-    </div>    
-        
-        
-       
-
-    </body>
+    <div id="title">Laptops Loot Lo</div>
+    
 
     
+    <br>
+    <div class="container">
+      <table>
+      <tr>
+        <th class="img">
+         <a href="page1.html"> <img src="images/leon-seibert-IjEsNibC4pc-unsplash.jpg" /></a>
+          <table class="information">
+            <tr>
+              <th>Price</th>
+              <th>Brand</th>
+              <th>Lundo</th>
+            </tr>
+            <tr>
+              <td>200$</td>
+              <td>Lenovo</td>
+              <td>Lundo</td>
+            </tr>
+          </table>
+          
+        </th>
+        <th class="img">
+          <a href="page2.html"><img src="images/leon-seibert-IjEsNibC4pc-unsplash.jpg" /></a>
+
+          <table class="information">
+            <tr>
+              <th>Price</th>
+              <th>Brand</th>
+              <th>Lundo</th>
+            </tr>
+            <tr>
+              <td>200$</td>
+              <td>Lenov</td>
+              <td>Lundo</td>
+            </tr>
+          </table>
+        </th>
+        <th class="img">
+          <a href="page3.html"><img src="images/leon-seibert-LGZFr5bUw7M-unsplash.jpg" /></a>
+          <table class="information">
+            <tr>
+              <th>Price</th>
+              <th>Brand</th>
+              <th>Lundo</th>
+            </tr>
+            <tr>
+              <td>200$</td>
+              <td>Lenovo</td>
+              <td>Lundo</td>
+            </tr>
+          </table>
+        </th>
+      </tr>
+      
+      <tr >
+          
+          <td style="text-align: center; font-size: large; font-weight: bold; padding-top: 25px;" >
+          <a href="page1.html">  For More </a> 
+          </td>
+          
+          <td style="text-align: center; font-size: large; font-weight: bold; padding-top: 25px;" >
+            <a href="page2.html">  For More </a> 
+          </td>
+          
+          <td style="text-align: center; font-size: large; font-weight: bold; padding-top: 25px;" >
+            <a href="page3.html">  For More </a>
+          </td>
+      </tr>
+      
+      </table>
+    </div>
+  </body>
 </html>
